@@ -16,7 +16,7 @@
 <body>
     <!-- header start -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5 fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -36,13 +36,19 @@
                             <a class="nav-link" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Product</a>
+                            <a class="nav-link" href="#categories">Categories</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="#backpack">Backpack</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#watch">Watches</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#send">Contact us</a>
                         </li>
                     </ul>
                 </div>
@@ -136,7 +142,7 @@
         <!-- categories -->
         <section class=" mt-5">
             <div class="container px-4">
-                <h1 class="mb-3">Categories</h1>
+                <h1 class="mb-3" id="categories">Categories</h1>
                 <div class="row g-3">
                     <div class="col-12 col-md-6 col-lg-4">
                         <div
@@ -164,7 +170,7 @@
             </div>
         </section>
         <section class=" container mt-5">
-            <h1>Shoes</h1>
+            <h1 id="shoes">Shoes</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
                     <div class="card h-100 border-0 rounded-3 shadow-lg">
@@ -214,7 +220,7 @@
             </div>
         </section>
         <section class=" container mt-5">
-            <h1>Watches</h1>
+            <h1 id="watch">Watches</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
                     <div class="card h-100 border-0 rounded-3 shadow-lg">
@@ -268,7 +274,7 @@
             </div>
         </section>
         <section class="container mt-5">
-            <h1>Backpack</h1>
+            <h1 id="backpack">Backpack</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
                     <div class="card h-100 border-0 rounded-3 shadow-lg">
@@ -319,7 +325,7 @@
         </section>
         <section class="container subscribe d-flex justify-content-center align-items-center border-1 rounded-3">
             <div>
-                <h1 class="cat-title text-dark">LET'S STAY IN TOUCH</h1>
+                <h1 class="cat-title text-dark" id="send">LET'S STAY IN TOUCH</h1>
                 <p>Get updates on sales specials and more</p>
                 <form action="">
                     <input type="email" name="" id="" placeholder="Enter your email">
