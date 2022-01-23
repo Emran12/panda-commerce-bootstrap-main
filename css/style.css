@@ -13,6 +13,7 @@
 /* slide styles */
 .slider{
     background: #FEEAE9;
+    margin-top: 100px;
 }
 .carousel-item-info{
     width: 560px;
